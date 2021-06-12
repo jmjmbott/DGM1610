@@ -2,13 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Variable : MonoBehaviour
+public class Operator : MonoBehaviour
 {
-    int x = 50;
-        
+    int Mynum = 50;
     void Start()
-    { int sum1 = x + 25;
-        Debug.Log(sum1);
+    {
+        int sum1 = 25;
+            Debug.Log(sum1 + Mynum);
         
     }
 }
